@@ -71,6 +71,3 @@ Design a secure network topology with Network Security Groups (NSGs) and Azure F
       - Destination: 10.0.2.0/24
       - Protocol: TCP
       - Port: 1433
-
-   3. **Block Risky Domains**
-      - Create application rules to block access to known risky domains.
