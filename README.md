@@ -59,14 +59,6 @@ This project aims to configure and test user roles in Azure to understand the pr
   - **Attempted to delete a resource**:
     - **Outcome**: User2 was also **allowed** to delete resources, confirming their permissions.
 
-## Conclusion
-The project successfully demonstrated the differences in capabilities between the Reader and Contributor roles in Azure RBAC. User1 was limited to viewing resources and logs, while User2 had full permissions to manage resources within the Resource Group.
-
-### Next Steps
-- Explore additional Azure roles and permissions.
-- Consider implementing Conditional Access policies once a Premium license is acquired.
-- Document further tests and findings in future iterations.
-
 ### Repository Structure
 - `README.md`: Overview of the project.
 - `docs/`: Detailed documentation and logs of tests performed.
